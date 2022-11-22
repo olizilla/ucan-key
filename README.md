@@ -23,7 +23,7 @@ You might store the key string in a secrets manager or ENV var and parse it prog
 ```js
 import * as Signer from '@ucanto/principal/ed25519'
 const key = process.env.KEY // "MgCZ9PrPux+I1Ijt..."
-const signer = signer.parse(key)
+const signer = Signer.parse(key)
 // now go sign some UCANs!
 ```
 
