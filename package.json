@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Generate keypairs for signing UCANs",
   "main": "index.js",
+  "bin": "./bin.js",
   "scripts": {
     "start": "bin.js ed",
     "test": "standard"
