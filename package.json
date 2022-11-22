@@ -1,6 +1,6 @@
 {
   "name": "ucan-key",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Generate keypairs for signing UCANs",
   "main": "index.js",
